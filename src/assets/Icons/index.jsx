@@ -39,7 +39,7 @@ export const NotificationsIcon = () => <svg width="24" height="24" viewBox="0 0 
 <path d="M23.314 17.2943C23.2907 17.2757 20.8173 15.381 20.8605 10.2593C20.8838 7.30533 19.9131 4.68032 18.1223 2.86848C16.5181 1.24332 14.3458 0.34498 12.0067 0.333313H11.9915C9.65348 0.34498 7.48115 1.24333 5.87581 2.86966C4.08615 4.68149 3.11315 7.30533 3.13882 10.2593C3.18199 15.311 0.782148 17.2208 0.686481 17.2943C0.383148 17.5195 0.259482 17.9127 0.377315 18.272C0.496315 18.6313 0.832304 18.8728 1.20797 18.8728H6.94799C7.06699 21.5678 9.2778 23.7262 11.9996 23.7262C14.7215 23.7262 16.93 21.5678 17.0478 18.8728H22.7901C23.1658 18.8728 23.5018 18.6325 23.6185 18.2732C23.7386 17.915 23.615 17.5206 23.3117 17.2955L23.314 17.2943ZM12.0008 21.9727C10.245 21.9727 8.81581 20.5995 8.70148 18.8717H15.3001C15.1835 20.5983 13.7566 21.975 12.0008 21.975V21.9727ZM3.11082 17.1217C3.97415 15.801 4.91682 13.589 4.88882 10.243C4.86782 7.72298 5.64015 5.59732 7.12065 4.09815C8.39581 2.80665 10.1306 2.09148 12.0008 2.08331C13.871 2.09265 15.6023 2.80666 16.8775 4.09933C18.3591 5.59849 19.1326 7.72299 19.1116 10.2442C19.0836 13.5902 20.0275 15.8033 20.8908 17.1228H3.11082V17.1217Z" fill="black"/>
 </svg>
 
-export const NotificationsActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="28" height="22" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+export const NotificationsActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="28" height="22" fill="currentColor" className="bi bi-bell-fill" viewBox="0 0 16 16">
   <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
 </svg>
 
@@ -50,7 +50,7 @@ export const MessagesIcon = () => <svg width="24" height="22" viewBox="0 0 24 22
 
 
 
-export const MessagesActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+export const MessagesActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" fill="currentColor" className="bi bi-envelope-fill" viewBox="0 0 16 16">
   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
 </svg>
 
@@ -59,7 +59,7 @@ export const BookmarksIcon = () => <svg width="21" height="24" viewBox="0 0 21 2
 <path d="M19.8083 23.8416C19.6252 23.8416 19.4443 23.7833 19.2927 23.6736L10.5917 17.341L1.89067 23.676C1.62467 23.8673 1.27232 23.8976 0.97832 23.746C0.686653 23.5978 0.5 23.2968 0.5 22.9678V2.95831C0.5 1.51165 1.67833 0.333313 3.125 0.333313H18.056C19.5027 0.333313 20.681 1.51165 20.681 2.95831V22.9666C20.681 23.2956 20.4967 23.5966 20.2027 23.746C20.079 23.8101 19.9425 23.8416 19.806 23.8416H19.8083ZM10.5917 15.3833C10.7725 15.3833 10.9533 15.4393 11.105 15.5513L18.9333 21.2481V2.95831C18.9333 2.47765 18.5402 2.08331 18.0583 2.08331H3.125C2.64317 2.08331 2.25 2.47765 2.25 2.95831V21.2481L10.0783 15.5513C10.23 15.4393 10.4108 15.3833 10.5917 15.3833Z" fill="black"/>
 </svg>
 
-export const BookmarksActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
+export const BookmarksActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" fill="currentColor" className="bi bi-bookmark-fill" viewBox="0 0 16 16">
   <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"/>
 </svg>
 
@@ -77,7 +77,7 @@ export const ProfileIcon = () => <svg width="20" height="25" viewBox="0 0 20 25"
 </svg>
 
 
-export const ProfileActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+export const ProfileActiveIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" className="bi bi-person-fill" viewBox="0 0 16 16">
   <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
 </svg>
 

@@ -19,35 +19,40 @@ export const NavList = [
         title: "Home",
         path: paths.home,
         icon: <HomeIcon/>,
-        iconActive: <HomeActiveIcon/>
+        iconActive: <HomeActiveIcon/>,
+        element: <Home/>,
     },
     {
         id: 2,
         title: "Explore",
         path: paths.explore,
         icon: <ExploreIcon/>,
-        iconActive: <ExploreIcon/>
+        iconActive: <ExploreIcon/>,
+        element: <Explore/>
     },
     {
         id: 3,
         title: "Notifications",
         path: paths.notifications,
         icon: <NotificationsIcon/>,
-        iconActive: <NotificationsActiveIcon/>
+        iconActive: <NotificationsActiveIcon/>,
+        element: <Notifications/>
     },
     {
         id: 4,
         title: "Messages",
         path: paths.messages,
         icon: <MessagesIcon/>,
-        iconActive: <MessagesActiveIcon/>
+        iconActive: <MessagesActiveIcon/>,
+        element: <Messages/>
     },
     {
         id: 5,
         title: "Bookmarks",
         path: paths.bookmarks,
         icon: <BookmarksIcon/>,
-        iconActive: <BookmarksActiveIcon/>
+        iconActive: <BookmarksActiveIcon/>,
+        element: <Bookmarks/>
 
     },
     {
@@ -55,20 +60,23 @@ export const NavList = [
         title: "Lists",
         path: paths.lists,
         icon: <ListsIcon/>,
-        iconActive: <ListsIcon/>
+        iconActive: <ListsIcon/>,
+        element: <Lists/>
     },
     {
         id: 7,
         title: "Profile",
         path: paths.profile,
         icon: <ProfileIcon/>,
-        iconActive: <ProfileActiveIcon/>
+        iconActive: <ProfileActiveIcon/>,
+        element: <Profile/>
     },
     {
         id: 8,
         title: "More",
         path: paths.more,
         icon: <MoreIcon/>,
-        iconActive:  <MoreIcon/>
+        iconActive:  <MoreIcon/>,
+        element: <More/>
     }
 ]
